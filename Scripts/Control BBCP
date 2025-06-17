@@ -1,0 +1,165 @@
+{
+    "Profile_configuration": {
+        "consumption_guide": "",
+        "software_category": "",
+        "software_type": "",
+        "hardware_platform": "",
+        "Computation_centric": {
+            "task_distribution": "",
+            "computational_criticality": "",
+            "computation_complexity": "",
+            "distribution_strategy": ""
+        },
+        "Data_centric": {
+            "data_flow_behavior": "",
+            "data_flow_direction": "",
+            "data_handling": ""
+        },
+        "Conduct_centric": {
+            "access_frequency": "",
+            "consumption_rate": "",
+            "depth": "",
+            "dependence": ""
+        }
+    },
+    "Usage": {
+        "profile_evaluation_rate": "",
+        "run_base_probability": "",
+        "stop_base_probability": "",
+        "Run_constraints": {
+            "minimum_run_time": "",
+            "maximum_run_time": "",
+            "quota": "",
+            "cooldown": "",
+            "countdown": ""
+        }
+    },
+    "Expectations": {
+        "Cycles": [
+            {
+                "Days": "",
+                "Scale": "",
+                "Timed_expectations": [
+                    {
+                        "time_range": "",
+                        "evaluation_rate_override": "",
+                        "run_probability_override": "",
+                        "stop_probability_override": "",
+                        "Run_constraints": {
+                            "minimum_run_time": "",
+                            "maximum_run_time": "",
+                            "quota": "",
+                            "cooldown": "",
+                            "countdown": ""
+                        },
+                        "Elasticity": {
+                            "elasticity": "",
+                            "minimum_run_probability": "",
+                            "maximum_run_probability": "",
+                            "minimum_stop_probability": "",
+                            "maximum_stop_probability": "",
+                            "positive_run_probability_modifier": "",
+                            "negative_run_probability_modifier": "",
+                            "positive_stop_probability_modifier": "",
+                            "negative_stop_probability_modifier": ""
+                        }
+                    }
+                ]
+            }
+        ],
+        "Events": [
+            {
+                "initial_day": "",
+                "end_day": "",
+                "Timed_expectations": [
+                    {
+                        "time_range": "",
+                        "evaluation_rate_override": "",
+                        "run_probability_override": "",
+                        "stop_probability_override": "",
+                        "Elasticity": {
+                            "elasticity": "",
+                            "minimum_run_probability": "",
+                            "maximum_run_probability": "",
+                            "minimum_stop_probability": "",
+                            "maximum_stop_probability": "",
+                            "positive_run_probability_modifier": "",
+                            "negative_run_probability_modifier": "",
+                            "positive_stop_probability_modifier": "",
+                            "negative_stop_probability_modifier": ""
+                        },
+                        "Run_constraints": {
+                            "minimum_run_time": "",
+                            "maximum_run_time": "",
+                            "quota": "",
+                            "cooldown": "",
+                            "countdown": ""
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "Operations": [
+        {
+            "operation_ID": "",
+            "operation_description": "",
+            "operation_data_handling": "",
+            "operation_task_distribution": "",
+            "operation_depth": "",
+            "instructions": "",
+            "resource_usage": {
+                "CPU": "",
+                "RAM": "",
+                "Storage": "",
+                "Network": ""
+            },
+            "sensor_usage": {
+                "Camera": "",
+                "Screen_brightness": "",
+                "GPS": "",
+                "Bluetooth": "",
+                "WIFI_usage": ""
+            },
+            "Operation_run_constraints": {
+                "minimum_run_time": "",
+                "maximum_run_time": "",
+                "quota": "",
+                "cooldown": "",
+                "countdown": ""
+            }
+        }
+    ],
+    "Dependencies": {
+        "Operational": [
+            {
+                "source_operation_ID": "",
+                "target_operation_ID": "",
+                "operational_dependency_type": ""
+            }
+        ],
+        "Triggers": [
+            {
+                "operation_ID": "",
+                "trigger_value": "",
+                "trigger_Type": ""
+            }
+        ],
+        "Results": [
+            {
+                "source_operation": "",
+                "target_operation": "",
+                "parameter": ""
+            }
+        ]
+    },
+    "Parameters": [
+        {
+            "parameter_ID": "",
+            "parameter_description": "",
+            "direction": "",
+            "size": "",
+            "origin": ""
+        }
+    ]
+}
